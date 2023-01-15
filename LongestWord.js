@@ -15,5 +15,5 @@ longestWordArrow = (words) => {
 }
 
 let words= ["we", "love", "code", "academy"]
-console.log(`By regular function: ${words[longestWord(words)]}`)
+console.log(`By Regular function: ${words[longestWord(words)]}`)
 console.log(`By Arrow function: ${words[longestWordArrow(words)]}`)
