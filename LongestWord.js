@@ -1,19 +1,28 @@
 function longestWord(words) {
-    long=0
+    long=-1
     for(i in words){
-        long = words[i].length>long ? (words[i].length , idx=i) : long
+        if (words[i].length>long){
+            long=words[i].length
+            idx=i
+        }
     }
-    return idx
+    return words[idx]
 }
 
 longestWordArrow = (words) => {
-    long=0
+    long=-1
     for(i in words){
-        long = words[i].length>long ? (words[i].length , idx=i) : long
+        if (words[i].length>long){
+            long=words[i].length
+            idx=i
+        }
     }
-    return idx
+    return words[idx]
 }
 
+module.exports = longestWord;
+module.exports = longestWordArrow;
+
 let words= ["we", "love", "code", "academy"]
-console.log(`By Regular function: ${words[longestWord(words)]}`)
-console.log(`By Arrow function: ${words[longestWordArrow(words)]}`)
+console.log(`By Regular function: ${longestWord}`)
+console.log(`By Arrow function: ${longestWordArrow}`)
