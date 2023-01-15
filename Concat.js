@@ -5,6 +5,8 @@ function concat(words){
 function concatArrow(words){
     return (words[0].slice(1)+words[1].slice(1))
 }
+module.exports=concat
+module.exports=concatArrow
 
 words=["code", "academy"]
 console.log(`By regular function: ${concat(words)}`)
