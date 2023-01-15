@@ -5,6 +5,8 @@ function endsWithScript(word){
 endsWithScriptArrow = (word) => {
     return word.endsWith("Script")
 }
+module.exports=endsWithScript
+module.exports=endsWithScriptArrow
 
 word = "javascript"
 console.log(`By Regular function: ${endsWithScript(word)}`)
