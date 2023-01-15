@@ -7,5 +7,5 @@ endsWithScriptArrow = (word) => {
 }
 
 word = "javascript"
-console.log(`By regular function: ${endsWithScript(word)}`)
-console.log(`By arrow function: ${endsWithScriptArrow(word)}`)
+console.log(`By Regular function: ${endsWithScript(word)}`)
+console.log(`By Arrow function: ${endsWithScriptArrow(word)}`)
