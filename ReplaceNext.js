@@ -32,6 +32,8 @@ replaceNextArrow = (word) => {
     return wordArr.join("")   
 }
 
+module.exports=replaceNext
+module.exports=replaceNextArrow
 
 let word="Codeacademy"
 console.log(`By regular function: ${replaceNext(word)}`)
