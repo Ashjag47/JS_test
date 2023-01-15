@@ -7,5 +7,5 @@ isLeapYearArrow = (year) => {
 }
 
 year=2001
-console.log(`By regular function: ${isLeapYear(year)}`)
+console.log(`By Regular function: ${isLeapYear(year)}`)
 console.log(`By Arrow function: ${isLeapYearArrow(year)}`)
