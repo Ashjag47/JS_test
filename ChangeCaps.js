@@ -30,6 +30,9 @@ changeCapsArrow = (text) => {
     return newText
 }
 
+module.exports=changeCaps
+module.exports=changeCapsArrow
+
 text="MeRRy hAD a LITTle lAMp"
 console.log(`By regular function: ${changeCaps(text)}`)
 console.log(`By Arrow function: ${changeCapsArrow(text)}`)
