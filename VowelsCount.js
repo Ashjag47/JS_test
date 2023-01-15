@@ -18,6 +18,9 @@ countVowelsArrow = (word) => {
     return count   
 }
 
+module.exports=countVowels
+module.exports=countVowelsArrow
+
 word="codeAcademy"
 console.log(`By regular function: ${countVowels(word)}`)
 console.log(`By Arrow function: ${countVowelsArrow(word)}`)
