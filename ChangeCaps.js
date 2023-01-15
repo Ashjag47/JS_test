@@ -6,6 +6,9 @@ function changeCaps(text){
         }
         else if(text[i]>='a' && text[i]<='z'){
             newText+=text[i].toUpperCase()
+        }   
+        else{
+            newText+=text[i]
         }       
     }
     return newText
@@ -19,11 +22,14 @@ changeCapsArrow = (text) => {
         }
         else if(text[i]>='a' && text[i]<='z'){
             newText+=text[i].toUpperCase()
+        }
+        else{
+            newText+=text[i]
         }       
     }
     return newText
 }
 
-text="AsHishP"
+text="MeRRy hAD a LITTle lAMp"
 console.log(`By regular function: ${changeCaps(text)}`)
 console.log(`By Arrow function: ${changeCapsArrow(text)}`)
